@@ -10,7 +10,7 @@ const StoreContextProvider = (props) => {
 
     const [cartItems, setCartItems] = useState({});
     // const url = "https://foodify-backend-7hnv.onrender.com";
-    const url= "https://be-reservation.onrender.com/api";
+    const url= "https://be-reservation-1.onrender.com";
     const [token, setToken] = useState();
     // const [food_list, setFoodList] = useState([])
     const [food_list, setFoodList] = useState(staticFoodList)
